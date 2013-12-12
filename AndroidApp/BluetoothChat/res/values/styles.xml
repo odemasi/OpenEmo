@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<color name="custom_theme_color">#0099CC</color>
+<color name="my_custom_theme_color">#87CEFA</color>
+<style name="CustomTheme" parent="android:Theme.Holo.Light.DarkActionBar"> <!-- parent="android:Theme.Translucent"> -->
+    <item name="android:textSize">20sp</item>
+    
+    <!-- <item name="android:windowBackground">@color/custom_theme_color</item>
+    <item name="android:colorBackground">@color/custom_theme_color</item>
+    <item name="android:textColor">#000000</item> -->
+    <item name="android:windowBackground">@color/my_custom_theme_color</item>
+    <item name="android:colorBackground">@color/my_custom_theme_color</item>
+   <!-- <item name="android:windowBackground">@color/custom_theme_color</item>
+    <item name="android:colorBackground">@color/custom_theme_color</item> -->
+
+</style>
+
+
+
+</resources>
